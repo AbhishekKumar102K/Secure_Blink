@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.workflow-container {
+  position: absolute;
+  margin-top: 160vw;
+  height: 40vw;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.workflow-steps-container {
+  display: flex;
+  width: 70%;
+  height: 50%;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+
+.workflow-steps {
+  display: flex;
+  width: 30%;
+  padding: 5%;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+}
+
+.workflow-steps:hover {
+  box-shadow: 0px 30px 60px #0e77ff26;
+}
+
+.step-icon {
+  display: flex;
+  padding: 2%;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  color: #0e77ff;
+  font-weight: bolder;
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 31px;
+}
+
+.blue-bar {
+  height: 4px;
+  width: 35%;
+  background: transparent url(res/Rectangle\ 1326.svg) 0% 0% no-repeat
+    padding-box;
+  margin-top: 3%;
+}

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+.coretech-container {
+  position: absolute;
+  margin-top: 210vw;
+  height: 40vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.group-35700 {
+  position: absolute;
+  height: 80%;
+  width: 25%;
+  margin-left: -85%;
+  background-image: url(res/Group\ 35700.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 0;
+  margin-top: -15%;
+}
+
+.coretech-categories {
+  width: 30%;
+  height: 10%;
+  margin-top: 5%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 40px 60px #0e77ff26;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 72px;
+}
+
+.icons-container {
+  margin-top: 5%;
+  width: 50%;
+  height: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-container {
+  width: 10%;
+  height: 65%;
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #0e77ff;
+  border-radius: 9px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2% 2% 2%;
+}
+
+.logo-props {
+  width: 65%;
+  height: 65%;
+  margin: 2%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.react-logo {
+  background-image: url(res/React-icon.svg);
+}
+
+.aws-logo-dark {
+  margin-top: 30%;
+  background-image: url(res/Amazon_Web_Services_Logo.svg);
+}
+
+.mask-logo {
+  background-image: url(res/Mask\ Group\ 1.svg);
+}
+
+.redux-logo {
+  background-image: url(res/redux-logo-1.svg);
+}
+
+.js-logo {
+  background-image: url(res/Path\ 37520.svg);
+}
+
+.sf-logo {
+  background-image: url(res/g10-1.svg);
+}
+
+.aws-logo-light {
+  margin-top: 30%;
+  background-image: url(res/Amazon_Web_Services_Logo-1.svg);
+}
+
+.node-logo {
+  background-image: url(res/Mask\ Group\ 3.svg);
+}
+
+.path3-logo {
+  background-image: url(res/_Path_3.svg);
+}

@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+.services-container {
+  position: absolute;
+  margin-top: 90vw;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  z-index: 0;
+}
+
+.blue-rect {
+  position: relative;
+  width: 50%;
+  height: 60vw;
+  display: flex;
+  background-color: #0e77ff;
+  z-index: 0;
+}
+
+.UIUX-box {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  z-index: 0;
+  width: 47%;
+  height: 35vw;
+  box-shadow: 0px 30px 60px #0e77ff26;
+}
+
+.UIUX-line-1 {
+  margin-top: 5%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+
+.group-35621 {
+  width: 12%;
+  height: 100%;
+  background-image: url(./res/Group\ 35621.svg);
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+}
+
+.UIUX-point {
+  margin-top: 0%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.green-tick {
+  width: 4%;
+  height: 60%;
+  margin-right: 2%;
+  background-image: url(./res/Group\ 35604.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.services-box {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-line {
+  height: 12%;
+  width: 70%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.services-triangle {
+  position: relative;
+  display: flex;
+  margin-right: 2%;
+  height: 80%;
+  width: 5%;
+  background-image: url(./res/Group\ 35624.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+}
+
+.services-button-container {
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 65%;
+}
+
+.services-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #0e77ff;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding: 2% 4% 2% 4%;
+  height: 30px;
+  white-space: nowrap;
+  background: #16b2ff17 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  transition: 0.1s ease-in-out;
+}
+
+.services-button:hover {
+  border: 2px solid blue;
+}
+
+.sb-active {
+  background-color: #0e77ff;
+  color: white;
+}

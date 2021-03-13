@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+.about-container {
+  height: 80%;
+  width: 100%;
+  z-index: 0;
+  background-color: white;
+  display: flex;
+}
+
+.group-35699 {
+  position: absolute;
+  margin-left: -50%;
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+  height: 92vw;
+  width: 100%;
+  background-image: url(./res/Group\ 35699.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  z-index: 1;
+}
+
+.group-35650 {
+  position: absolute;
+  margin-left: 82%;
+  margin-top: 50vw;
+  display: flex;
+  height: 70%;
+  width: 18%;
+  background-image: url(./res/Group\ 35650.svg);
+  background-repeat: no-repeat;
+  background-size: 160% auto;
+  z-index: 2;
+}
+
+.group-35698 {
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 8vw;
+  display: flex;
+  height: 80%;
+  width: 28%;
+  background-image: url(./res/Group\ 35698.svg);
+  background-repeat: no-repeat;
+  background-size: 120% auto;
+  z-index: 2;
+}
+
+.about-box {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 28vw;
+  display: flex;
+  height: 65%;
+  width: 28%;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-line {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-us-triangle {
+  position: relative;
+  display: flex;
+  margin-right: 2%;
+  height: 100%;
+  width: 7%;
+  background-image: url(./res/Group\ 35624.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 2;
+}
+
+.about-get-started {
+  cursor: pointer;
+  height: 3vw;
+  width: 35%;
+  display: flex;
+  margin-top: 27vw;
+  border: 2px solid #0e77ff;
+  border-radius: 2vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.about-get-started:hover {
+  box-shadow: 2px 2px 1px 1px #0e77ff;
+}
+
+.about-arrow-down-sign {
+  width: 5%;
+  height: 0.8vw;
+  background-image: url(./res/arrow-down-sign-to-navigate-1.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  z-index: 2;
+}

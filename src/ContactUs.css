@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+}
+
+.contact-us-container {
+  position: absolute;
+  margin-top: 380vw;
+  height: 70vw;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 0;
+}
+
+.footer-background {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  margin-top: 5%;
+  background-image: url(res/Path\ 37456.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+}
+
+.group-35686 {
+  position: absolute;
+  height: 68%;
+  margin-top: 10%;
+  width: 40%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  background-image: url(res/Group\ 35686.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+}
+
+.send-us-msg {
+  width: 90%;
+  height: 61%;
+  padding: 20% 0 0 13%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 40px 60px #0e77ff26;
+}
+
+.input-field {
+  width: 100%;
+  height: 10%;
+  appearance: none;
+  border: none;
+  outline: 0;
+  margin-bottom: -3%;
+}
+
+.your-msg {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: -8%;
+}
+
+::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1vw;
+  font-weight: 700;
+  color: black;
+  opacity: 0.8;
+}
+
+.h-line {
+  width: 100%;
+  height: 2px;
+  background-color: grey;
+  margin-bottom: 5%;
+}
+
+.contact-us-get-started {
+  width: 40%;
+  height: 10%;
+  cursor: pointer;
+  margin-top: 7%;
+  background: #0e77ff 0% 0% no-repeat padding-box;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-arrows {
+  width: 5%;
+  height: 0.8vw;
+  background-image: url(./res/arrow-down-sign-to-navigate-9.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  z-index: 2;
+}
+
+.footer-container {
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  z-index: 3;
+  display: flex;
+}
+
+.social-icons-container {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 30%;
+  z-index: 2;
+}
+
+.fb-icon {
+  cursor: pointer;
+  height: 2vw;
+  width: 8%;
+  margin-right: 3%;
+  background-image: url(res/Group\ 34322.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.twitter-icon {
+  cursor: pointer;
+  height: 2vw;
+  width: 8%;
+  margin-right: 3%;
+  background-image: url(res/Group\ 34323.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.insta-icon {
+  cursor: pointer;
+  height: 2vw;
+  width: 8%;
+  background-image: url(res/instagram.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: flex-start;
+  width: 15%;
+  height: 100%;
+}
+
+.footer-col-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin-bottom: 2%;
+  opacity: 0.9;
+}
+
+.footer-col-bar {
+  width: 20%;
+  background: #21b3ff 0% 0% no-repeat padding-box;
+  height: 2px;
+  margin-bottom: 6%;
+}
+
+.footer-col-point {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 0.9vw;
+  color: white;
+  margin-bottom: 4%;
+  opacity: 0.8;
+}
+
+.location-icon {
+  height: 80%;
+  width: 15%;
+  background-image: url(res/Path\ 36465.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-right: 5%;
+}
+
+.telephone-icon {
+  height: 120%;
+  width: 8%;
+  background-image: url(res/Group\ 35689.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-right: 5%;
+}
+
+.mail-icon {
+  height: 100%;
+  width: 10%;
+  background-image: url(res/Group\ 35688.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-right: 3%;
+}
