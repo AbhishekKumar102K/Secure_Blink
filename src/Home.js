@@ -65,7 +65,7 @@ function Home() {
             <div className = 'home-content-small'></div>
 
             <div className = "home-get-started">
-                <div style={{display: 'flex', marginRight: '6px'}}>
+                <div style={{display: 'flex', marginRight: '6px',height:'1.8vw'}}>
                     Get Started
                 </div>
                 <div className='home-arrow-down-sign'></div>

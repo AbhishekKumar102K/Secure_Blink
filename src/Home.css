@@ -117,6 +117,7 @@ body {
   height: 4vw;
   outline: none;
   border: 0;
+  white-space: nowrap;
   letter-spacing: 0px;
   border-radius: 2vw;
   align-items: center;
@@ -133,10 +134,11 @@ body {
 
 .home-arrow-down-sign {
   display: flex;
-  width: 8px;
-  height: 12.24px;
+  width: 6%;
+  height: 0.9vw;
   background-image: url(./res/arrow-down-sign-to-navigate-10.svg);
   background-repeat: no-repeat;
+  background-size: 70% auto;
   z-index: 5;
 }
 

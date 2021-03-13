@@ -55,7 +55,7 @@ body {
   margin-left: 50%;
   margin-top: 28vw;
   display: flex;
-  height: 65%;
+  height: 60vw;
   width: 28%;
   z-index: 3;
   display: flex;
@@ -63,9 +63,10 @@ body {
 }
 
 .about-us-line {
-  height: 8%;
+  height: 4vw;
   width: 100%;
   display: flex;
+  margin-top: 2vw;
   justify-content: flex-start;
   align-items: center;
 }

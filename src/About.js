@@ -24,7 +24,7 @@ function About() {
                 </div>
 
                 <div className='about-us-line'>
-                    <div style={{color: 'black', fontSize:'1.2vw', lineHeight: '23px', marginTop:'50%'}}>
+                    <div style={{color: 'black', fontSize:'1.2vw', lineHeight: '2vw', marginTop:'10vw'}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Aliquam ex odio, turpis accumsan congue. Quisque blandit dui 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada 
